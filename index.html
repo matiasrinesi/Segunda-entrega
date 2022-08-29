@@ -1,46 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://bootswatch.com/5/minty/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/055f5f6266.js" crossorigin="anonymous"></script>
-</head>
-<body>
-   
-    <div class="container">
-        <form id="formCamisetas">
-            <div class="mb-3">
-              <label for="equipoCamiseta" class="form-label">Seleccione el equipo</label>
-              <input type="text" class="form-control" id="equipoCamiseta" name="equipo"> 
-            </div>
-            <div class="mb-3">
-                <label for="talleCamiseta" class="form-label">Seleccione su talle</label>
-                <input type="text" class="form-control" id="talleCamiseta" name="talle">
-            </div>
-            <div class="mb-3">
-                <label for="dorsalCamiseta" class="form-label">Seleccione un dorsal</label>
-                <input type="text" class="form-control" id="dorsalCamiseta" name="dorsal">
-            </div>
-            <div class="mb-3">
-                <label for="NombreEnCamiseta" class="form-label">Seleccione un nombre/apellido para colocar en la camiseta</label>
-                <input type="text" class="form-control" id="nombreCamiseta" name="nombre">
-            </div>
 
-            <button type="submit" class="btn btn-primary">Enviar pedido</button>
-          </form>
-        </div> 
-        
-        <br>
-         <br>
-        
-        <div class="container">
-            
-            <button id="botonPedidos" class="btn btn-dark"><i class="fa-solid fa-cart-shopping"></i></button><br><br> 
-            <div  id= "divCamisetas" class="row"></div>
-        </div> 
-    <script src="js/miarchivo.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://bootswatch.com/5/slate/bootstrap.min.css  ">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<script src="https://kit.fontawesome.com/f4a951d2bc.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+<body class="bodyIndex">
+
+    <section class="inicio">
+       
+        <h1 class=" inicio__titulo fw-bolder ">Shirt Museum</h1>
+        <h2 class="inicio__subtitulo fst-italic">Las camisetas nunca pasan de moda</h2>
+        <p class="inicio__parrafo fw-normal">¿Fanático del fútbol?
+        En Shirt Museum podés encontrar una gran variedad de camisetas de tus equipos favoritos.
+            Seleccione su modelo favorito y se lo enviaremos a cualquier lugar en el mundo.
+        </p> 
+    </section>
+  <div class="container1 ">
+    <div class="formSign">
+      <legend class="signup">Sign up</legend>
+      <form id="idForm">
+        <div class="info">
+          <label for="idNombre " class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="idNombre" required>
+        </div>
+        <div class="info">
+          <label for="idMail" class="form-label">Mail</label>
+          <input type="email" class="form-control" id="idMail" required>
+        </div>
+        <div class="info">
+          <label for="idContraseña" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="idContraseña" required>
+        </div>
+
+        <button id="idBoton" type="submit" class="btn btn-outline-warning idBoton"> Guardar Jugador</button>
+      </form>
+
+    </div>
+    <div class="formLog">
+      <legend class="login">Log in</legend>
+      <form id="formIngresar">
+        <div class="info">
+          <label for="idNombre " class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="NombreIngreso">
+        </div>
+
+        <div class="info">
+          <label for="idContraseña" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="ContraseñaIngreso">
+        </div>
+        <div id="incorrecto"></div>
+
+        <button id="BotonIngreso" type="submit" class="btn btn-outline-warning bot-ing "> Ingresar</button>
+      </form>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="js/script.js"></script>
 </body>
+
 </html>

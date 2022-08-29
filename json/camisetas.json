@@ -1,0 +1,47 @@
+[
+    {
+        "equipo": "Barcelona",
+        "modelo": "Titular",
+        "precio": 10000,
+        "apellido": "Lewandowski",
+        "img": "../img/lewan_barca.jpg"
+    
+        
+ 
+    },
+    {
+        "equipo": "PSG",
+        "modelo": "Titular",
+        "precio": 12000,
+        "apellido": "Neymar Jr",
+        "img": "../img/psg_ney.jpg"
+        
+ 
+    },
+    {
+        "equipo": "Real Madrid",
+        "modelo": "suplente",
+        "precio": 10000,
+        "apellido": "Benzema",
+        "img": "../img/benz_real.jpg"
+ 
+    },
+    {
+        "equipo": "Argentina",
+        "modelo": "Titular",
+        "precio": 15000,
+        "apellido": "Messi",
+        "img": "../img/arg_messi.webp"
+ 
+    },
+    {
+        "equipo": "Arsenal",
+        "modelo": "Titular",
+        "precio": 10000,
+        "apellido": "Saka",
+        "img": "../img/saka_ars.jpg"
+ 
+    }
+
+
+]

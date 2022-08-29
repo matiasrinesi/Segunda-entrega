@@ -1,0 +1,139 @@
+.divFinalizar{
+    margin-left: 70px;
+}
+.btn.btn-primary{
+    margin-left: 890px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.offcanvas.offcanvas-top{
+    margin-left: 790px;
+}
+
+
+.inicio__titulo{
+    /* text-decoration: underline; */
+    font-size: 70px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #FFC107;
+    margin-left: 450px;
+    
+}
+
+.inicio__parrafo{
+    font-size: 20px;
+    color: #e2e8f3;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+    width: 1000px;
+}
+.botonMostrar.btn.btn-outline-warning{
+    margin-left: 580px;
+    margin-top: 100px;
+    background-color: rgb(29, 28, 28);
+}
+.body__inicio{
+background-color: black;
+}
+
+
+.botonMostrar.btn.btn-light{
+color: black;
+background-color: #FFC107;
+
+}
+.offcanvas-title{
+    color: #FFC107;
+}
+
+img{
+    max-width: 100px;
+}
+
+.tituloPersonalizado{
+    color: #FFC107;
+    margin-top: 50px ;
+    margin-bottom: 60px;
+    margin-left: 80px;
+}   
+
+/**/
+.container1 {
+    margin-top: 5;
+    margin-bottom: 20%;
+    width: 60%;
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas:
+        "form1 form2 ";
+    align-items: center;
+    justify-content: center;
+}
+
+.formSign {
+    background-color: rgb(14, 14, 13);
+    padding: 40px;
+    border-radius: 20px;
+    margin: 10px;
+    height: 85%;
+}
+
+.formLog {
+    background-color: rgb(14, 14, 13);
+    padding: 25px;
+    padding-top: 50px;
+    border-radius: 20px;
+    margin: 10px;
+    height: 85%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+legend {
+    text-align: center;
+}
+
+.idBoton {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-content: center;
+    margin: 20px;
+    margin-left: 25%;
+}
+
+.info {
+    margin: 20px;
+}
+
+.ingresa {
+    text-align: center;
+    margin: 40px;
+    font-size: 50px;
+}
+.idBotonLog {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-content: center;
+    margin: 20px;
+    margin-left: 35%;
+}
+
+.bodyIndex{
+    background-color: black;
+}
+
+.signup{
+    color: #FFC107;
+}
+.login{
+    color: #FFC107;
+    margin-bottom: 10px;
+}
